@@ -1,0 +1,31 @@
+textarea {
+    min-height: 400px;
+}
+
+table.table-mailbox {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100%;
+		border-collapse: collapse;
+}
+
+tr.tr-mailbox {
+	border: 2px solid black;
+	height: 40px;
+}
+td.td-mailbox-from {
+	font: bold 16px Arial;
+	padding-left: 10px;
+	width: 20%;
+}
+td.td-mailbox-sub {
+	font: 16px Arial;
+	padding-left: 10px;
+	width: 60%;
+}
+td.td-mailbox-time {
+	font: 14px Arial;
+	color: gray;
+	padding-left: 10px;
+	width: 20%;
+}
